@@ -1,0 +1,7 @@
+<p>
+  settings Page!
+</p>
+
+<a *ngFor="let route of routes" [routerLink]="route.url">{{route.linkname}}</a>
+
+<router-outlet></router-outlet>
