@@ -8,7 +8,10 @@ import { SettingsContactsComponent } from './settings-contacts/settings-contacts
 
 const routes: Routes = [
   // {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'home', component: HomeComponent},
+  {
+    path: 'home',
+    component: HomeComponent
+  },
   {
     path: 'settings',
     component: SettingsComponent,
@@ -19,7 +22,9 @@ const routes: Routes = [
       // {path: '**', redirectTo: 'profile', pathMatch: 'full'}
     ]
   },
-  {path: '**', component: PageNotFooundComponent}
+  // {
+  //   path: '**', component: PageNotFooundComponent
+  // }
 ];
 
 @NgModule({

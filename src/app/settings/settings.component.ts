@@ -10,7 +10,7 @@ export class SettingsComponent implements OnInit {
   routes = [
     {linkname: 'Profile', url: 'profile'},
     {linkname: 'Contact Info', url: 'contacts'}
-  ]
+  ];
 
   constructor() { }
 
